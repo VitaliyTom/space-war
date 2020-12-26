@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/fav.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Space War</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title unselectable">SPACE WAR</h1>
+        </header>
+
+        <main id="main">
+            <canvas id="canvas" width="900" height="700"></canvas>
+            <div class="spinner_wrapper">
+                <div class="spinner"></div>
+                <p class="spinner_description">Loading...</p>
+            </div>
+
+            <div class="menu">
+                <div class="main_menu">
+                    <a href="#" class="button play unselectable">Start Game</a>
+                </div>
+            </div>
+
+            <div class="game_over_wrapper">
+                <div class="game_over_description">
+                    <h2 class="game_over unselectable">GAME OVER</h2>
+                    <div class="score_wrapper">
+                        <p class="score unselectable"></p>
+                    </div>
+                </div>
+
+                <div class="game_over_menu">
+                    <a href="#" class="button restart unselectable">Restart</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
